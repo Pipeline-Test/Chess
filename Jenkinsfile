@@ -5,6 +5,10 @@ node {
     stage("Start") {
         sh "echo I can has success?"
     }
+    
+    stage("End") {
+        sh "echo Nothing to see here"   
+    }
 }
 
 def merge() {
