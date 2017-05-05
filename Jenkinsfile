@@ -9,6 +9,8 @@ node {
       sh "rm -rf .git"
     }
     
+    sh "echo hi"
+    
     //Checks out the latest code, creates a local branch "MergeTestBranch" and tries to merge there
     // If merge is not successfull, git will complain and the job will fail
     checkout scm
