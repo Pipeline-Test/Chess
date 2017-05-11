@@ -7,7 +7,7 @@ node {
         def testImg = docker.build("ugomadagu/clouldjenkins:latest");
         
         
-        docker.withRegistry("https://hub.docker.com/", "dockercert") {
+        docker.withRegistry("https://hub.docker23232.com/", "dockercert") {
           testImg.push()
         }
         
