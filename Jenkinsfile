@@ -8,7 +8,7 @@ node {
         
         
         docker.withRegistry("https://hub.docker.com/", "dockercert") {
-          env_img.push()
+          testImg.push()
         }
         
     }
