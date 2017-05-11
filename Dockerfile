@@ -8,6 +8,6 @@ RUN apt-get -qq update \
 RUN curl -sSL https://get.docker.com/ | sh
 
 RUN usermod -a -G staff,docker jenkins
-RUN chgrp docker /var/run/docker.sock
+//RUN chgrp docker /var/run/docker.sock
 
 USER jenkins
